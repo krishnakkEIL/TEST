@@ -31,25 +31,25 @@ pip install -r requirements.txt
 Demo data (no internet required):
 
 ```bash
-python vwap_strategy.py --demo --plot
+python3 vwap_strategy.py --demo --plot
 ```
 
 Live Yahoo Finance data:
 
 ```bash
-python vwap_strategy.py --symbol AAPL --period 5d --interval 5m --plot
+python3 vwap_strategy.py --symbol AAPL --period 5d --interval 5m --plot
 ```
 
 Useful options:
 
 ```bash
-python vwap_strategy.py --symbol MSFT --period 1d --interval 1m --cash 25000 --shares 10
+python3 vwap_strategy.py --symbol MSFT --period 1d --interval 1m --cash 25000 --shares 10
 ```
 
 ## Tests
 
 ```bash
-python -m unittest test_vwap_strategy.py -v
+python3 -m unittest test_vwap_strategy.py -v
 ```
 
 ## Files
